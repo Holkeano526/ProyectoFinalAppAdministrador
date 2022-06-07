@@ -168,7 +168,7 @@ public class NuevoPlatoFragment extends Fragment {
         {
             case PrincipalActivity.CODE_GALLERY: //en caso del que principalactivity. devuelva un code ya sea camera o gallery se ejecutaran estos codigos
                 if(data != null){
-                    uri_img = data.getData(); //devuelve la url del componente ya sea camara o galeria
+                    uri_img = data.getData(); //obtiene los datos de la url de la imagen
                     try{
                         Bitmap bitmap = MediaStore.Images.Media.getBitmap(getActivity().getContentResolver(),uri_img);
                         img.setImageBitmap(bitmap);
