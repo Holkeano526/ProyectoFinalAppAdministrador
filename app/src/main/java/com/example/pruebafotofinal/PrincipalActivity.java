@@ -10,16 +10,19 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
+import android.view.View;
+import android.widget.Button;
 
 import com.example.pruebafotofinal.lectorQR.IntentIntegrator;
 import com.example.pruebafotofinal.vistas.NuevoPlatoFragment;
 import com.example.pruebafotofinal.vistas.OtroFragment;
 import com.example.pruebafotofinal.vistas.PlatosFragment;
 import com.google.android.material.tabs.TabLayout;
+import com.example.pruebafotofinal.modelo.plato;
 
 public class PrincipalActivity extends AppCompatActivity {
 
@@ -46,6 +49,7 @@ public class PrincipalActivity extends AppCompatActivity {
         tabLayout = findViewById(R.id.tab_bar);
         viewPager = findViewById(R.id.view_pager);
 
+
         //creamos los fragmentos
         p1  = new PlatosFragment();
         p2  = new NuevoPlatoFragment();
@@ -56,7 +60,7 @@ public class PrincipalActivity extends AppCompatActivity {
         //definir configuraciones del nuevo adaptador(adapterpager)
         adapterPager = new AdapterPager(getSupportFragmentManager());
 
-        //declaramos el adapterpager
+        //declaramos el adapterpager //viewpager para desplazarnos entre los fragments
         viewPager.setAdapter(adapterPager);
 
         //hereda la configuracion del viewpager
@@ -66,12 +70,8 @@ public class PrincipalActivity extends AppCompatActivity {
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_platos);
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_nuevo);
         tabLayout.getTabAt(2).setIcon(R.drawable.ic_otro);
-
-
     }
     public class AdapterPager extends FragmentPagerAdapter{
-
-
         public AdapterPager(@NonNull FragmentManager fm) {
             super(fm);
         }
@@ -129,6 +129,5 @@ public class PrincipalActivity extends AppCompatActivity {
                 break;
 
         }
-
     }
 }

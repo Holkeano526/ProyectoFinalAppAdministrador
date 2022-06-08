@@ -3,10 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/antho/AndroidStudioProjects/PRUEBAFOTOFINAL/app/src/main/res/drawable/bordes.xml" value="0.152" />
+        <entry key="..\:/Users/antho/AndroidStudioProjects/PRUEBAFOTOFINAL/app/src/main/res/drawable/bordesfoto.xml" value="0.152" />
+        <entry key="..\:/Users/antho/AndroidStudioProjects/PRUEBAFOTOFINAL/app/src/main/res/font/chifa.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/antho/AndroidStudioProjects/PRUEBAFOTOFINAL/app/src/main/res/font/textview.xml" value="1.0857142857142856" />
         <entry key="..\:/Users/antho/AndroidStudioProjects/PRUEBAFOTOFINAL/app/src/main/res/layout/activity_login.xml" value="0.209375" />
         <entry key="..\:/Users/antho/AndroidStudioProjects/PRUEBAFOTOFINAL/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/antho/AndroidStudioProjects/PRUEBAFOTOFINAL/app/src/main/res/layout/activity_principal.xml" value="0.209375" />
+        <entry key="..\:/Users/antho/AndroidStudioProjects/PRUEBAFOTOFINAL/app/src/main/res/layout/activity_principal.xml" value="0.18" />
         <entry key="..\:/Users/antho/AndroidStudioProjects/PRUEBAFOTOFINAL/app/src/main/res/layout/activity_registro.xml" value="0.209375" />
+        <entry key="..\:/Users/antho/AndroidStudioProjects/PRUEBAFOTOFINAL/app/src/main/res/layout/bordes.xml" value="0.209375" />
         <entry key="..\:/Users/antho/AndroidStudioProjects/PRUEBAFOTOFINAL/app/src/main/res/layout/fragment_nueva_fruta.xml" value="0.209375" />
         <entry key="..\:/Users/antho/AndroidStudioProjects/PRUEBAFOTOFINAL/app/src/main/res/layout/fragment_nuevo_plato.xml" value="0.22" />
         <entry key="..\:/Users/antho/AndroidStudioProjects/PRUEBAFOTOFINAL/app/src/main/res/layout/fragment_otro.xml" value="0.209375" />

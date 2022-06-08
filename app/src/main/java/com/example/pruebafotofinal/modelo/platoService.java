@@ -15,6 +15,6 @@ public class platoService {
     }
 
     public static void updatePlato(plato plato){
-        platos.set(platos.indexOf(plato),plato); //busca la posicion para el update
+        platos.set(platos.indexOf(plato),plato); // update
     }
 }

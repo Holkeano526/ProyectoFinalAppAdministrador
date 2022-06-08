@@ -21,6 +21,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.example.pruebafotofinal.R;
 import com.example.pruebafotofinal.modelo.plato;
 import com.google.android.gms.tasks.OnFailureListener;

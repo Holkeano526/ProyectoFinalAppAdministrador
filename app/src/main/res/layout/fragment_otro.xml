@@ -4,34 +4,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="8dp"
+    android:background="@drawable/fondotro"
     tools:context=".vistas.OtroFragment">
     <TextView
-        android:text="Busqueda"
+        android:text="Busqueda de plato"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/go3v2"
         android:textSize="30sp"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-    
+
     <EditText
         android:id="@+id/txt_buscar"
-        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:hint="Nombre del platillo"/>
+        android:shadowColor="@color/white"
+        android:fontFamily="@font/hitomisake"
+        android:textColorHint="@color/white"
+        android:layout_marginLeft="15dp"
+        android:hint="Nombre del platillo" />
 
     <Button
         android:id="@+id/btn_Buscar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Buscar"
         android:textAllCaps="false"
-        android:layout_gravity="right"/>
+        android:text="Buscar"
+        android:fontFamily="@font/go3v2"
+        android:layout_marginTop="7dp"
+        android:textColor="#FFFF00"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:background="@drawable/bordes"
+        android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/btn_Scan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Scan"
         android:textAllCaps="false"
-        android:layout_gravity="right"/>
+        android:text="Scanear QR"
+        android:fontFamily="@font/go3v2"
+        android:layout_marginTop="7dp"
+        android:textColor="#FFFF00"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:background="@drawable/bordes"
+        android:layout_height="wrap_content"/>
 </LinearLayout>
