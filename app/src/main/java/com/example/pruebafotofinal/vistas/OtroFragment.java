@@ -65,7 +65,7 @@ public class OtroFragment extends Fragment {
                             plato p = ds.getValue(plato.class);
                             p.setId(ds.getKey());
                             Log.e("info","---------->"+p.getNombre());
-                            Toast.makeText(getActivity(),p.getNombre()+" S/."+p.getPrecio(),Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getActivity(),p.getNombre()+" S/."+p.getPrecio()+ '\n' + p.getDescripcion(),Toast.LENGTH_SHORT).show();
                         }
 
                     }
