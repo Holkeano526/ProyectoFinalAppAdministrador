@@ -9,7 +9,7 @@
     <TextView
         android:text="Busqueda de plato"
         android:textStyle="italic"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/go3v2"
         android:textSize="30sp"
@@ -19,12 +19,13 @@
 
     <EditText
         android:id="@+id/txt_buscar"
-        android:textColor="@color/white"
         android:layout_width="360dp"
+        android:textSize="25sp"
         android:layout_height="wrap_content"
         android:shadowColor="@color/white"
-        android:fontFamily="@font/hitomisake"
-        android:textColorHint="@color/white"
+        android:fontFamily="@font/hogback"
+        android:textColor="@color/white"
+        android:textColorHint="#808080"
         android:layout_marginLeft="15dp"
         android:hint="Nombre del platillo" />
 
@@ -33,7 +34,7 @@
         android:textAllCaps="false"
         android:text="Buscar"
         android:fontFamily="@font/go3v2"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="10dp"
         android:textColor="#FFFF00"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
@@ -45,7 +46,7 @@
         android:textAllCaps="false"
         android:text="Scanear QR"
         android:fontFamily="@font/go3v2"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="10dp"
         android:textColor="#FFFF00"
         android:layout_gravity="center"
         android:layout_width="wrap_content"

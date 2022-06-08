@@ -69,7 +69,7 @@ public class PrincipalActivity extends AppCompatActivity {
         //definimos nuestros iconos
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_platos);
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_nuevo);
-        tabLayout.getTabAt(2).setIcon(R.drawable.ic_otro);
+        tabLayout.getTabAt(2).setIcon(R.drawable.ic_busqueda);
     }
     public class AdapterPager extends FragmentPagerAdapter{
         public AdapterPager(@NonNull FragmentManager fm) {
@@ -99,7 +99,7 @@ public class PrincipalActivity extends AppCompatActivity {
                 case 1:
                     return "Nuevo";
                 case 2:
-                    return "Otro";
+                    return "Busqueda";
             }
             return null;
         }
