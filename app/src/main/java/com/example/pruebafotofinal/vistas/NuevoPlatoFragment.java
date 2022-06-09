@@ -60,7 +60,6 @@ public class NuevoPlatoFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_nuevo_plato, container, false);
-
         txtnombre = view.findViewById(R.id.txtnombre);
         txtprecio = view.findViewById(R.id.txtprecio);
         txtdescripcion = view.findViewById(R.id.txtdescripcion);
@@ -68,6 +67,7 @@ public class NuevoPlatoFragment extends Fragment {
         btn_Galeria = view.findViewById(R.id.btn_abrirGaleria);
         btn_Camara = view.findViewById(R.id.btn_abrirCamara);
         img = view.findViewById(R.id.plato_img);
+
 
         //guardamos en firebase
         btn.setOnClickListener(new View.OnClickListener() {
@@ -143,7 +143,6 @@ public class NuevoPlatoFragment extends Fragment {
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                 startActivityForResult(intent, PrincipalActivity.CODE_GALLERY); //llamamos a nuestras constantes de accion para la galeria
-
             }
         });
 

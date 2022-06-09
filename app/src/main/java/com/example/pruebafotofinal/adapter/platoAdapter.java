@@ -44,7 +44,6 @@ public class platoAdapter extends RecyclerView.Adapter<platoAdapter.platoHolder>
         holder.txtnombre.setText(plato.getNombre());
         holder.txtdescripcion.setText(plato.getDescripcion());
         holder.txtprecio.setText(String.valueOf(plato.getPrecio()));
-
         Glide.with(activity).load(plato.getUrl()).into(holder.plato); //usamos el glide para cargar la imagen
     }
 

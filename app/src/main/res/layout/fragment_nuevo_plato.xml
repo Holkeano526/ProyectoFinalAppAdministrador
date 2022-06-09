@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/fondocarta"
+    android:background="@drawable/fondochifa"
     tools:context=".vistas.NuevoPlatoFragment">
 
     <TextView
