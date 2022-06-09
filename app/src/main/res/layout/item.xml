@@ -6,14 +6,17 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imagenplato"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="19dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_marginRight="8dp"
         android:scaleType="centerCrop"
         app:civ_border_color="#FFFF00"
         app:civ_border_width="2dp"/>
     <TextView
         android:id="@+id/item_nombre"
+        android:layout_marginTop="10dp"
         android:text="Chaufa"
         android:textColor="#000000"
         android:fontFamily="@font/hogback"
@@ -40,6 +43,7 @@
 
     <TextView
         android:id="@+id/item_id"
+        android:visibility="invisible"
         android:text="jg745g45"
         android:textSize="12sp"
         android:layout_alignParentRight="true"
@@ -51,5 +55,7 @@
         android:layout_height="1dp"
         android:layout_below="@id/item_precio"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="16.5dp"
+        android:layout_marginRight="16.5dp"
         android:background=	"#FFFF00" />
 </RelativeLayout>
